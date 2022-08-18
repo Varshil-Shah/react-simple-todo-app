@@ -1,0 +1,40 @@
+.todo {
+  position: relative;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 10fr 1fr;
+  background-color: rgb(241, 135, 93);
+  height: 50px;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+.label {
+  font-size: 18px;
+  font-weight: 500;
+  color: #222;
+}
+
+.button {
+  height: 100%;
+  border: none;
+  outline: none;
+  background: rgb(244, 55, 93);
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 20px;
+  color: #fff;
+}
+
+@media screen and (max-width: 376px) {
+  .label {
+    font-size: 16px;
+  }
+
+  .todo {
+    grid-template-columns: 9fr 2fr;
+    gap: 5px;
+  }
+}

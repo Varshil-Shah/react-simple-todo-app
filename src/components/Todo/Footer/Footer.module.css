@@ -1,0 +1,32 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.paragraph {
+  font-size: 18px;
+  font-weight: 500;
+  color: #222;
+}
+
+.button {
+  border: none;
+  outline: none;
+  background: #e14e18;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 376px) {
+  .paragraph {
+    font-size: 14px;
+  }
+
+  .button {
+    padding: 5px 10px;
+  }
+}

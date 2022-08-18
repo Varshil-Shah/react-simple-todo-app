@@ -1,0 +1,40 @@
+.form-control {
+  display: grid;
+  grid-template-columns: 10fr 1fr;
+  gap: 15px;
+}
+
+.input-field,
+.button {
+  border-radius: 2px;
+}
+
+.input-field {
+  padding: 10px 5px;
+  border: 2px solid #cdcccc;
+  outline: none;
+  font-size: 18px;
+}
+
+.button {
+  height: 50px;
+  width: auto;
+  padding: 10px 5px;
+  background-color: #e14e18;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.icon {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 376px) {
+  .form-control {
+    grid-template-columns: 9fr 2fr;
+    gap: 5px;
+  }
+}
